@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    height: 125px;
+    width: 125px;
+    border: 1px solid black;
+    background-color: wheat;
+    margin: 17px 8px;
+    box-shadow: 3px 3px 4px rgba(201, 201, 201, 0.3);
+  
+}
+
+.main1{
+    display: flex;
+}
+.main2{
+    display: flex;
+
+}
+.main3{
+    display: flex;
+
+}
+.main4{
+    display: flex;
+
+}
+.container{
+    margin-top: 12px;
+    margin-left: 225px;
+}
+img{
+    height: 125px;
+    width: 125px;
+    display: none;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.active{
+    display: block;
+}
